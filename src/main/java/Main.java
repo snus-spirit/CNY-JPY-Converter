@@ -13,7 +13,7 @@ public class Main {
     }
 
     public static void convertToCNY(double value) {
-        System.out.printf("%.2f JPY = %.2f CNY", value, value / getCurrencyRate());
+        System.out.printf("%.2f JPY = %.2f CNY\n\n", value, value / getCurrencyRate());
     }
 
 
